@@ -1,0 +1,62 @@
+{
+  "name": "crud-gql-node",
+  "version": "1.0.0",
+  "description": "study be node gql with postgresql",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/index.js"
+  },
+  "author": "Sarah Simorangkir",
+  "license": "ISC",
+  "dependencies": {
+    "@aspnet/signalr": "^1.0.27",
+    "@aws-sdk/client-secrets-manager": "^3.317.0",
+    "apollo-datasource": "^3.3.1",
+    "apollo-datasource-rest": "^3.5.1",
+    "apollo-link": "^1.2.14",
+    "apollo-link-http": "^1.5.17",
+    "apollo-server": "^3.6.2",
+    "apollo-server-core": "^3.6.2",
+    "apollo-server-express": "^3.6.2",
+    "apollo-server-plugin-response-cache": "^3.5.1",
+    "apollo-server-testing": "^2.25.3",
+    "base64-js": "^1.5.1",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.2",
+    "fs": "0.0.1-security",
+    "graphql": "^16.3.0",
+    "graphql-subscriptions": "^2.0.0",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "jest": "^27.4.7",
+    "js-rijndael": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "mysql2": "^2.3.3",
+    "nock": "^13.2.2",
+    "node-forge": "^1.2.1",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1",
+    "pkcs7-padding": "^0.1.1",
+    "rijndael-js": "^2.0.0",
+    "sequelize": "^6.14.1",
+    "subscriptions-transport-ws": "^0.11.0",
+    "supertest": "^6.2.2",
+    "systemjs": "^6.12.1",
+    "tedious": "^14.1.0",
+    "utf8": "^3.0.0"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/__utils"
+    ]
+  },
+  "devDependencies": {
+    "babel-plugin-graphql-tag": "^2.5.0"
+  }
+}
